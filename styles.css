@@ -1,0 +1,30 @@
+#tablero {
+    display: inline-block;
+    border:5px solid;
+}
+.fila {
+    background-color: black;
+    display: table;
+}
+.recuadro {
+    width:50px;
+    height:50px;
+    float:left;
+}
+.fila:nth-child(odd) .recuadro:nth-child(even),
+.fila:nth-child(even) .recuadro:nth-child(odd) {
+    background-color: white;
+}
+
+body, .card-body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.container {
+    display: flex;  
+    align-items: center;      
+    justify-content: center;    
+    min-height: 100vh;
+}
