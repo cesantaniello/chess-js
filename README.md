@@ -1,1 +1,1 @@
-Aplicacion que muestra un tablero de Ajedrez hecha con JS
+Aplicación hecha con JS que muestra un tablero de Ajedrez.
